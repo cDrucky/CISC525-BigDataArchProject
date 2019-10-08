@@ -2,6 +2,7 @@ import os
 import time
 from twitter import *
 from flask import Flask, request, render_template, redirect, abort, flash, jsonify
+from flask_oauth import OAuth
 
 
 app = Flask(__name__)
